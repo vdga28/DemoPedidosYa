@@ -1,4 +1,4 @@
-package com.victor.pruebas.activity;
+package com.victor.pruebas.demopedidosya.view.activity;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -11,14 +11,14 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
 import com.victor.pruebas.data.entity.RestaurantEntity;
 import com.victor.pruebas.data.persistence.PreferencesManager;
 import com.victor.pruebas.data.util.Constants;
 import com.victor.pruebas.data.util.LocationProvider;
 import com.victor.pruebas.demopedidosya.R;
 import com.victor.pruebas.demopedidosya.presenter.HomeActivityPresenter;
-import com.victor.pruebas.demopedidosya.view.HomeActivityView;
-import com.victor.pruebas.demopedidosya.view.activity.RestaurantMap;
+import com.victor.pruebas.demopedidosya.contract.HomeActivityView;
 import com.victor.pruebas.demopedidosya.view.adapter.RestaurantListAdapter;
 import com.victor.pruebas.navigator.Navigator;
 

@@ -8,23 +8,23 @@ import com.victor.pruebas.data.persistence.PreferencesManager;
 import com.victor.pruebas.data.util.Constants;
 import com.victor.pruebas.demopedidosya.util.UtilError;
 import com.victor.pruebas.demopedidosya.util.UtilGenericDialog;
-import com.victor.pruebas.demopedidosya.view.MainActivityView;
+import com.victor.pruebas.demopedidosya.contract.LoginActivityView;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class MainActivityPresenter implements Presenter<MainActivityView> {
+public class LoginActivityPresenter implements Presenter<LoginActivityView> {
 
-    private MainActivityView view;
+    private LoginActivityView view;
     private PreferencesManager preferencesManager;
 
-    public MainActivityPresenter (Context context){
+    public LoginActivityPresenter(Context context){
         this.preferencesManager = new PreferencesManager(context, Constants.TOKEN_SESSION);
     }
 
     @Override
-    public void setView(MainActivityView view) {
+    public void setView(LoginActivityView view) {
         this.view = view;
     }
 

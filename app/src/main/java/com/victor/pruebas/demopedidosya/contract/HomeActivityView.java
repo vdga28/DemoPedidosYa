@@ -1,4 +1,4 @@
-package com.victor.pruebas.demopedidosya.view;
+package com.victor.pruebas.demopedidosya.contract;
 
 import com.victor.pruebas.data.entity.RestaurantEntity;
 import com.victor.pruebas.demopedidosya.BaseView;

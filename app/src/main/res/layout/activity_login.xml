@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".view.activity.LoginActivity">
 
     <ImageView
         android:id="@+id/iv_logo"
@@ -25,9 +25,6 @@
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="48dp"
-        android:padding="4dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:textStyle="bold"
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/login_user"
@@ -43,9 +40,6 @@
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="36dp"
-        android:padding="4dp"
-        android:textStyle="bold"
-        android:textColor="@color/colorPrimaryDark"
         android:ems="10"
         android:hint="@string/login_password"
         android:inputType="textPassword"

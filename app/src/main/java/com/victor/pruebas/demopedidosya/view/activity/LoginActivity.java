@@ -1,23 +1,22 @@
-package com.victor.pruebas.demopedidosya;
+package com.victor.pruebas.demopedidosya.view.activity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.victor.pruebas.activity.BaseActivity;
-import com.victor.pruebas.activity.HomeActivity;
-import com.victor.pruebas.demopedidosya.presenter.MainActivityPresenter;
-import com.victor.pruebas.demopedidosya.view.MainActivityView;
+import com.victor.pruebas.demopedidosya.R;
+import com.victor.pruebas.demopedidosya.presenter.LoginActivityPresenter;
+import com.victor.pruebas.demopedidosya.contract.LoginActivityView;
 import com.victor.pruebas.navigator.Navigator;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class MainActivity extends BaseActivity implements  MainActivityView{
+public class LoginActivity extends BaseActivity implements LoginActivityView {
 
-    MainActivityPresenter presenter;
+    LoginActivityPresenter presenter;
 
     @BindView(R.id.et_username)
     EditText etUsername;
@@ -35,9 +34,9 @@ public class MainActivity extends BaseActivity implements  MainActivityView{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
-        presenter = new MainActivityPresenter(this.getBaseContext());
+        presenter = new LoginActivityPresenter(this.getBaseContext());
         presenter.setView(this);
         initUI();
     }
@@ -45,8 +44,6 @@ public class MainActivity extends BaseActivity implements  MainActivityView{
     @Override
     public void initUI() {
         super.initUI();
-        etUsername.setText("trivia_f");
-        etPassword.setText("PeY@@Tr1v1@943");
     }
 
     @Override

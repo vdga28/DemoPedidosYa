@@ -11,7 +11,7 @@ import com.victor.pruebas.demopedidosya.R;
 import com.victor.pruebas.demopedidosya.util.Util;
 import com.victor.pruebas.demopedidosya.util.UtilError;
 import com.victor.pruebas.demopedidosya.util.UtilGenericDialog;
-import com.victor.pruebas.demopedidosya.view.HomeActivityView;
+import com.victor.pruebas.demopedidosya.contract.HomeActivityView;
 
 import java.util.List;
 

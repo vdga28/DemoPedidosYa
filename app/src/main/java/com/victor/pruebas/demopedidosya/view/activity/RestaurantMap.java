@@ -17,7 +17,6 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.victor.pruebas.activity.HomeActivity;
 import com.victor.pruebas.data.entity.RestaurantEntity;
 import com.victor.pruebas.demopedidosya.R;
 import com.victor.pruebas.demopedidosya.contract.RestaurantMapView;
@@ -30,7 +29,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static com.victor.pruebas.activity.HomeActivity.REQUEST_LOCATION;
+import static com.victor.pruebas.demopedidosya.view.activity.HomeActivity.REQUEST_LOCATION;
 
 public class RestaurantMap extends BaseFragmentActivity implements OnMapReadyCallback, RestaurantMapView {
 

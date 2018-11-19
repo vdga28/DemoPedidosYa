@@ -1,4 +1,4 @@
-package com.victor.pruebas.activity;
+package com.victor.pruebas.demopedidosya.view.activity;
 
 import android.app.Activity;
 import android.content.Context;
