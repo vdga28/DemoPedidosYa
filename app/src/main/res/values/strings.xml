@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Demo PedidosYa</string>
+    <string name="login_user">Usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="title_activity_restaurant_map">Map</string>
+    <string name="current_position">Estás aquí</string>
+    <string name="update_position">Actualizar posición</string>
+    <string name="search_restaurants_question">¿Deseas buscar Restaurantes en este punto?</string>
+    <string name="error_search">Ha ocurrido un error en la búsqueda</string>
+    <string name="error_sorry">Lo sentimos</string>
+    <string name="error_generic">Ha ocurrido un error</string>
+    <string name="not_find_restaurant">No contamos con restaurantes para esta ubicación</string>
+    <string name="invalid_credentials">Credenciales inválidas</string>
+    <string name="verify_data">Verifique sus datos</string>
+    <string name="unavailable_location">No podemos detectar tu ubicación en estos momentos</string>
+    <string name="retry">Reintentar</string>
+    <string name="warning">Aviso</string>
+    <string name="exit_message">¿Está seguro que desea salir de la aplicación?</string>
+</resources>
